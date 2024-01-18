@@ -95,7 +95,7 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES (1,'lhester','lhester','ADMIN'),(2,'1','1','SUPER_ADMIN'),(3,'ter','ter','ASSISTANT');
+INSERT INTO `users` VALUES (1,'admin','admin','ADMIN'),(2,'1','1','SUPER_ADMIN'),(3,'ter','ter','ASSISTANT');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 
